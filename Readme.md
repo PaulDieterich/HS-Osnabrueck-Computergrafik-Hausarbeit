@@ -1,6 +1,6 @@
 # Computergrafik 
 ## Space Game
-* Paul Dieterich - 883966 
+* Paul Dieterich 
 * Justin F.
 # Steuerung
 * W -> Vorwerts 
