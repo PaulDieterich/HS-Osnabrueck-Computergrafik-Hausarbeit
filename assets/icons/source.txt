@@ -1,0 +1,2 @@
+eisen.jpg = https://imgbin.com/png/TWRP0eyN/ingot-iron-ore-steel-metal-png
+bronze.jpg = https://imgbin.com/png/wmWzwp0p/ore-mining-runescape-mineral-rock-png

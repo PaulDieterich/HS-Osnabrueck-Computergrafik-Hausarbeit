@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\utils">
+      <UniqueIdentifier>{160ebd8c-ee62-439f-acb6-44249b040596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\models">
+      <UniqueIdentifier>{dc5fa6cb-f125-4307-a116-1ce45c5c7f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\shader">
+      <UniqueIdentifier>{6a54a247-36e2-4ceb-a2f9-a70627911295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\lights">
+      <UniqueIdentifier>{0e2a75e8-af03-4a54-82b6-2dd27e130b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\basic">
+      <UniqueIdentifier>{c817caf9-5b5a-4c75-ba93-0eb97e38e4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\math">
+      <UniqueIdentifier>{f355007c-3729-401f-be6d-93796a00c83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\logic">
+      <UniqueIdentifier>{7204f34d-b96b-43ea-a8b0-5eceb3b8d794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\utils\imgui">
+      <UniqueIdentifier>{d25bdacc-1400-448f-819b-4185e897d8d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Camera.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Application.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Texture.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BaseModel.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BaseShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ConstantShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\PhongShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color.cpp">
+      <Filter>Quelldateien\utils\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rgbimage.cpp">
+      <Filter>Quelldateien\utils\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Lights.cpp">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ShaderLightMapper.cpp">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Framebuffer.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ShadowMapGenerator.cpp">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vector.cpp">
+      <Filter>Quelldateien\utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Matrix.cpp">
+      <Filter>Quelldateien\utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IndexBuffer.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\VertexBuffer.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Aabb.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Asteroid.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ship.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ShipWeapon.cpp">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Utility.cpp">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Player.cpp">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Resource.cpp">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SoundPlayer.cpp">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ParticleShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ui.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_impl_opengl3.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_tables.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_widgets.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_demo.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_draw.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_impl_glfw.cpp">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BlurShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GlowShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BloomShader.cpp">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ParticleEmitter.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Station.cpp">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Camera.h">
+      <Filter>Quelldateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Application.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Texture.h">
+      <Filter>Quelldateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BaseModel.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BaseShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ConstantShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\PhongShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\color.h">
+      <Filter>Quelldateien\utils\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rgbimage.h">
+      <Filter>Quelldateien\utils\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Lights.h">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ShaderLightMapper.h">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Framebuffer.h">
+      <Filter>Quelldateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ShadowMapGenerator.h">
+      <Filter>Quelldateien\utils\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\vector.h">
+      <Filter>Quelldateien\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Matrix.h">
+      <Filter>Quelldateien\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IndexBuffer.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\VertexBuffer.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Aabb.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Asteroid.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Ship.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ShipWeapon.h">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utility.h">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Player.h">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Resource.h">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SoundPlayer.h">
+      <Filter>Quelldateien\utils\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ParticleShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ui.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_impl_opengl3.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_internal.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imstb_rectpack.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imstb_textedit.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imstb_truetype.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imconfig.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_impl_glfw.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\stb_image.h">
+      <Filter>Quelldateien\utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BlurShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GlowShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BloomShader.h">
+      <Filter>Quelldateien\utils\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ParticleEmitter.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Station.h">
+      <Filter>Quelldateien\utils\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
